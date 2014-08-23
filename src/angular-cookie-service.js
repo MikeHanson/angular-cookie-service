@@ -1,4 +1,8 @@
-// Due credit to
+// Due credit ivpusic to https://github.com/ivpusic/angular-cookie
+// We originally used his cookie service in our project but found
+// it difficult to test against so created this alternative
+// which is more easily mocked for testing purposes
+
 var lnCookie = angular.module('lnCookie', []);
 
 lnCookie.factory('lnCookieService', [
